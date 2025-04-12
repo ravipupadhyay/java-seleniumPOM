@@ -34,3 +34,44 @@
 
 ```bash
 mvn clean test
+
+FolderStructure:
+selenium-Java/
+├── .mvn/
+├── reports/
+│   └── ExtentReport.html
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── base/
+│   │   │   │   ├── BasePage.java
+│   │   │   │   └── BaseTest.java
+│   │   │   ├── factory/
+│   │   │   │   └── PageFactoryManager.java
+│   │   │   ├── pages/
+│   │   │   │   ├── HomePage.java
+│   │   │   │   └── LoginPage.java
+│   │   │   └── utils/
+│   │   │       ├── ConfigReader.java
+│   │   │       ├── ExcelReader.java
+│   │   │       ├── ExtentManager.java
+│   │   │       ├── LoggerUtil.java
+│   │   │       ├── RetryAnalyzer.java
+│   │   │       ├── ScreenshotUtil.java
+│   │   │       └── WaitUtil.java
+│   └── resources/
+│       ├── config.properties
+│       └── testdata.xlsx
+├── src/test/java/
+│   ├── listeners/
+│   │   └── TestListener.java
+│   └── tests/
+│       └── LoginTest.java
+├── pom.xml
+├── testng.xml
+├── .gitignore
+├── README.md
+
+
+
+
