@@ -15,6 +15,13 @@
 - Logger
 
 ---
+Key  Features: 
+Page Object Model (POM)
+Centralized Driver and Test Base
+Retry Analyzer for flaky tests
+Data-driven testing (Excel)
+Custom Waits, Logging, Screenshot capture
+TestNG Listener + Extent Reports
 
 ## 📁 Key Components
 
